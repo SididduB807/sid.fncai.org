@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="520" viewBox="0 0 680 520" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#adbea0" stroke-opacity=".08"/></pattern><radialGradient id="glow"><stop stop-color="#879a71" stop-opacity=".12"/><stop offset="1" stop-color="#171b18" stop-opacity="0"/></radialGradient></defs>
+  <path fill="#171b18" d="M0 0H680V520H0z"/>
+  <path fill="url(#grid)" d="M0 0H680V520H0z"/>
+  <ellipse cx="340" cy="265" rx="260" ry="230" fill="url(#glow)"/>
+  <g stroke="#8d9e82" stroke-opacity=".6" stroke-width=".8"><path d="M24 32H40M32 24V40M640 32H656M648 24V40M24 488H40M32 480V496M640 488H656M648 480V496"/></g>
+  <g fill="#b3c1aa" font-family="monospace" font-size="9" letter-spacing="1"><text x="56" y="36">COSTAR / INFRASTRUCTURE AUTOMATION</text><text x="622" y="36">03</text></g>
+  <g stroke="#91a480" stroke-width=".8"><path d="M210 151H270V228H300M470 151H410V228H380M210 383H270V306H300M470 383H410V306H380"/><circle cx="340" cy="267" r="108" stroke-dasharray="2 6" stroke-opacity=".25"/></g>
+  <g fill="#1d251e" stroke="#91a480" stroke-width=".8"><rect x="70" y="119" width="140" height="64"/><rect x="470" y="119" width="140" height="64"/><rect x="70" y="351" width="140" height="64"/><rect x="470" y="351" width="140" height="64"/><rect x="257" y="225" width="166" height="84" fill="#222c23" stroke="#b4c3a8"/></g>
+  <g font-family="monospace" text-anchor="middle" fill="#dce4d5"><text x="140" y="147" font-size="10">AZURE DEVOPS</text><text x="540" y="147" font-size="10">AWS S3</text><text x="140" y="379" font-size="10">PODMAN</text><text x="540" y="379" font-size="10">DATADOG</text><text x="340" y="262" font-size="14" letter-spacing="1">TERRAFORM</text></g>
+  <g font-family="monospace" text-anchor="middle" fill="#99ab8d" font-size="7" letter-spacing=".5"><text x="140" y="166">PIPELINES</text><text x="540" y="166">STATIC WEBSITES</text><text x="140" y="398">PROVISIONING</text><text x="540" y="398">MONITORING + ALERTS</text><text x="340" y="283">INFRASTRUCTURE AS CODE</text></g>
+  <g fill="#c3d0b8"><circle cx="270" cy="228" r="2.5"/><circle cx="410" cy="228" r="2.5"/><circle cx="270" cy="306" r="2.5"/><circle cx="410" cy="306" r="2.5"/></g>
+  <path d="M70 455H610" stroke="#64715b" stroke-width=".7"/>
+  <g fill="#9aac8e" font-family="monospace" font-size="7" letter-spacing=".8"><text x="70" y="476">AUTOMATE / MONITOR / DOCUMENT</text><text x="610" y="476" text-anchor="end">JUN–AUG 2025</text></g>
+</svg>

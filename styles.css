@@ -63,8 +63,8 @@ h1 > span { color: #aeb9aa; }
 .experience-inner > .eyebrow { font-size: 9px; color: var(--muted); line-height: 1.8; margin-right: 22px; }
 .experience-company { font-size: 29px; letter-spacing: -1px; }
 .ibm-name { font-family: Georgia, serif; font-weight: 700; letter-spacing: 1.2px; font-size: 42px; }
-.teco-name { font-weight: 500; font-size: 25px; line-height: .9; }
-.teco-name > span { display: block; font-family: var(--mono); font-size: 8px; font-weight: 400; letter-spacing: 3px; margin-top: 9px; text-transform: uppercase; }
+.teco-name, .costar-name { font-weight: 500; font-size: 25px; line-height: .9; }
+.teco-name > span, .costar-name > span { display: block; font-family: var(--mono); font-size: 8px; font-weight: 400; letter-spacing: 3px; margin-top: 9px; text-transform: uppercase; }
 .strip-divider { width: 1px; height: 35px; background: var(--line); }
 .strip-link { display: inline-flex; align-items: center; gap: 26px; font-size: 11px; margin-left: auto; }
 .strip-link span { font-size: 20px; }
@@ -158,7 +158,7 @@ h3 { font-size: clamp(42px, 4.1vw, 62px); line-height: 1.06; font-weight: 400; l
   .experience-inner { gap: 34px; min-height: 130px; }
   .experience-inner > .eyebrow { margin-right: 0; font-size: 8px; }
   .strip-link { font-size: 9px; gap: 15px; }
-  .teco-name { font-size: 22px; }
+  .teco-name, .costar-name { font-size: 22px; }
   .section-heading { gap: 48px; margin-bottom: 65px; }
   .section-description { font-size: 14px; max-width: 260px; }
   .work-row { gap: 28px 48px; }
@@ -184,12 +184,12 @@ h3 { font-size: clamp(42px, 4.1vw, 62px); line-height: 1.06; font-weight: 400; l
   .hero-intro { margin-left: auto; max-width: 360px; }
   .hero-description { font-size: 14px; }
   .hero-art { background-position: 62% center; mask-image: linear-gradient(90deg, transparent, #000 65%); }
-  .experience-inner { flex-wrap: wrap; gap: 27px; padding-block: 28px; min-height: 0; }
-  .experience-inner > .eyebrow { margin-right: auto; }
+  .experience-inner { display: grid; grid-template-columns: repeat(3, max-content); justify-content: space-between; gap: 25px 20px; padding-block: 28px; min-height: 0; }
+  .experience-inner > .eyebrow { grid-column: 1 / -1; margin-right: 0; }
   .experience-company.ibm-name { font-size: 34px; }
-  .teco-name { font-size: 21px; }
+  .teco-name, .costar-name { font-size: 21px; }
   .strip-link { display: none; }
-  .strip-divider { height: 29px; }
+  .strip-divider { display: none; }
   .work-section { padding-block: 75px 20px; }
   .section-heading { gap: 36px; margin-bottom: 55px; }
   h2 { font-size: 62px; letter-spacing: -3px; }
@@ -239,10 +239,10 @@ h3 { font-size: clamp(42px, 4.1vw, 62px); line-height: 1.06; font-weight: 400; l
   .hero-bottom a span { font-size: 15px; }
   .hero-art { background-position: 65% center; opacity: .55; mask-image: linear-gradient(90deg, transparent, #000 80%); }
   .experience-inner { gap: 19px; padding-block: 27px; }
-  .experience-inner > .eyebrow { font-size: 6px; letter-spacing: .2px; margin-right: auto; }
+  .experience-inner > .eyebrow { font-size: 8px; letter-spacing: .2px; margin-right: 0; }
   .experience-company.ibm-name { font-size: 27px; }
-  .teco-name { font-size: 16px; letter-spacing: -.5px; }
-  .teco-name > span { font-size: 6px; letter-spacing: 2px; margin-top: 6px; }
+  .teco-name, .costar-name { font-size: 16px; letter-spacing: -.5px; }
+  .teco-name > span, .costar-name > span { font-size: 6px; letter-spacing: 2px; margin-top: 6px; }
   .strip-divider { height: 25px; }
   .work-section { padding-top: 58px; }
   .section-heading { display: block; margin-bottom: 39px; }

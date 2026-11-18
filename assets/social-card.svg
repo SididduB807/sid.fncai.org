@@ -7,8 +7,9 @@
     <text x="70" y="149" font-family="monospace" font-size="11" fill="#aeb9a9">SOFTWARE DEVELOPMENT / APPLIED AI</text>
     <g font-size="86" letter-spacing="-4"><text x="64" y="258">I build software</text><text x="64" y="351">that moves</text><text x="64" y="444" fill="#aeb9aa">work forward.</text></g>
     <path d="M70 500H1130" stroke="#343b34"/>
-    <text x="70" y="543" font-size="15" fill="#b1bca9">IBM / Golden Thread</text>
-    <text x="70" y="572" font-size="15" fill="#b1bca9">Tampa Electric / Document Intelligence Platform</text>
+    <text x="70" y="535" font-size="15" fill="#b1bca9">IBM / Golden Thread</text>
+    <text x="70" y="560" font-size="15" fill="#b1bca9">Tampa Electric / Document Intelligence Platform</text>
+    <text x="70" y="585" font-size="15" fill="#b1bca9">CoStar Group / DevOps Engineering</text>
     <text x="1130" y="572" text-anchor="end" font-family="monospace" font-size="12" fill="#aeb9a9">sid.fncai.org</text>
   </g>
 </svg>

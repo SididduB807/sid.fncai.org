@@ -14,7 +14,7 @@ Open http://localhost:8000. The site also works by opening `index.html` directly
 
 ## Content and editing
 
-The site includes the owner’s supplied Golden Thread contributions at IBM and QA, prompt engineering, and testing work on Tampa Electric’s Document Intelligence Platform. Golden Thread’s team achievements are distinguished from individual contributions. The cloud evaluation is omitted because its authorship has not been confirmed. Colleague names, email addresses, internal links, and unverified impact metrics are not included.
+The site includes the owner’s supplied Golden Thread contributions at IBM; QA, prompt engineering, and testing work on Tampa Electric’s Document Intelligence Platform; and the DevOps Engineering Intern position at CoStar Group (June–August 2025, Irvine, CA), drawn from the supplied résumé. Golden Thread’s team achievements are distinguished from individual contributions. The cloud evaluation is omitted because its authorship has not been confirmed. Colleague names, email addresses, internal links, and unverified impact metrics are not included.
 
 - Edit `index.html` for all copy, including the expandable project details.
 - Edit `styles.css` for colors, spacing, and typography.
@@ -22,15 +22,18 @@ The site includes the owner’s supplied Golden Thread contributions at IBM and 
 - Add public contact links to the footer when available.
 - `assets/social-card.svg` is the editable source for the PNG social preview; regenerate `assets/social-card.png` after changing the source.
 
-## Publish on GitHub Pages
+## GitHub Pages
 
-1. Create a GitHub repository and upload these files, including `.github/workflows/deploy.yml`, `.nojekyll`, and `CNAME`. Preserve the folder structure.
-2. Under **Settings → Pages → Build and deployment**, select **GitHub Actions**.
-3. Push to `main` or `master`, or run **Deploy portfolio to GitHub Pages** from the **Actions** tab. The workflow publishes only the site files.
-4. Under **Settings → Pages → Custom domain**, enter `sid.fncai.org`.
-5. At the DNS provider for `fncai.org`, point the **`sid` CNAME record** to **`SididduB807.github.io`** (no repository path or protocol). The previous target, `brandon-ibm.github.io`, belongs to a different GitHub account.
-6. Once GitHub verifies DNS and provisions the certificate, enable **Enforce HTTPS**. `http://sid.fncai.org/` will redirect to HTTPS.
+- Repository: https://github.com/SididduB807/sid.fncai.org
+- GitHub Pages URL: https://sididdub807.github.io/sid.fncai.org/
+- Deployment history: https://github.com/SididduB807/sid.fncai.org/actions
 
-Alternatively, publish directly from the root of the default branch using GitHub Pages’ **Deploy from a branch** option; no workflow is needed for that method.
+GitHub Pages is configured to deploy through GitHub Actions. Every push to `main` or `master` runs `.github/workflows/deploy.yml`; the workflow can also be started manually from the Actions tab. It publishes only the public site files.
 
-The repository, GitHub Pages settings, and DNS still need to be connected before the site is live. `CNAME` declares the domain; it does not update DNS.
+## Custom domain
+
+1. At the DNS provider for `fncai.org`, point the **`sid` CNAME record** to **`SididduB807.github.io`** (no repository path or protocol). The previous target, `brandon-ibm.github.io`, belongs to a different GitHub account.
+2. Once DNS is updated, set **Settings → Pages → Custom domain** to `sid.fncai.org`.
+3. After GitHub verifies DNS and provisions the certificate, enable **Enforce HTTPS**. `http://sid.fncai.org/` will redirect to HTTPS.
+
+The GitHub Pages URL works independently until the custom domain is connected. The checked-in `CNAME` file declares the intended domain; GitHub Actions publishing also requires setting the domain in the repository’s Pages settings.
