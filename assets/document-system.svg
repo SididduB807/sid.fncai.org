@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="520" viewBox="0 0 680 520" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#adbea0" stroke-opacity=".08"/></pattern><radialGradient id="glow"><stop stop-color="#879a71" stop-opacity=".12"/><stop offset="1" stop-color="#171b18" stop-opacity="0"/></radialGradient></defs>
+  <path fill="#171b18" d="M0 0H680V520H0z"/>
+  <path fill="url(#grid)" d="M0 0H680V520H0z"/>
+  <ellipse cx="340" cy="260" rx="280" ry="230" fill="url(#glow)"/>
+  <g stroke="#8d9e82" stroke-opacity=".6" stroke-width=".8"><path d="M24 32H40M32 24V40M640 32H656M648 24V40M24 488H40M32 480V496M640 488H656M648 480V496"/></g>
+  <g fill="#b3c1aa" font-family="monospace" font-size="9" letter-spacing="1"><text x="56" y="36">DIP / EVALUATION WORKFLOW</text><text x="622" y="36">02</text></g>
+  <circle cx="197" cy="255" r="125" stroke="#76896a" stroke-opacity=".25" stroke-dasharray="2 6"/>
+  <g stroke="#8c9e7f" stroke-width=".8"><path d="M146 161L264 170L253 344L135 335Z" fill="#1b211c"/><path d="M127 177L246 164L265 338L146 351Z" fill="#1b211c"/><path d="M128 161H231L255 185V339H128Z" fill="#202820" stroke="#b4c3a8"/><path d="M231 161V185H255M150 209H232M150 222H216M150 247H232M150 260H232M150 273H203M150 301H218"/><path d="M144 294H224V310H144Z" stroke="#c2d0b6" stroke-opacity=".5"/></g>
+  <g stroke="#9aad8a" stroke-width=".8"><path d="M276 255H341M337 251L341 255L337 259M341 255H369V205H399M369 255V309H399"/><path d="M598 205H619V386H340V420M598 309H619" stroke-opacity=".6"/></g>
+  <g fill="#1d251e" stroke="#91a480" stroke-width=".8"><rect x="399" y="176" width="199" height="58"/><rect x="399" y="280" width="199" height="58"/><rect x="90" y="420" width="509" height="39"/></g>
+  <g fill="#d0dcc7" font-family="monospace" text-anchor="middle"><text x="499" y="201" font-size="11" letter-spacing=".5">CLASSIFICATION</text><text x="499" y="218" font-size="7" fill="#9aac8e">DOCUMENT TYPE</text><text x="499" y="305" font-size="11" letter-spacing=".5">DATE EXTRACTION</text><text x="499" y="322" font-size="7" fill="#9aac8e">IMAGE / OCR</text><text x="344" y="444" font-size="10" letter-spacing="1.2">QA + PROMPT TESTING</text></g>
+  <path d="M113 438L117 442L125 433" stroke="#c2d0b6" stroke-width="1"/>
+  <g fill="#a6b69b"><circle cx="369" cy="255" r="2.5"/><circle cx="619" cy="309" r="2.5"/></g>
+  <text x="193" y="380" text-anchor="middle" fill="#a6b69b" font-family="monospace" font-size="8" letter-spacing="1">SOURCE DOCUMENT</text>
+</svg>

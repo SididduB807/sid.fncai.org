@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="520" viewBox="0 0 680 520" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#adbea0" stroke-opacity=".08"/></pattern><radialGradient id="glow"><stop stop-color="#879a71" stop-opacity=".12"/><stop offset="1" stop-color="#171b18" stop-opacity="0"/></radialGradient></defs>
+  <path fill="#171b18" d="M0 0H680V520H0z"/>
+  <path fill="url(#grid)" d="M0 0H680V520H0z"/>
+  <ellipse cx="340" cy="260" rx="250" ry="230" fill="url(#glow)"/>
+  <g stroke="#8d9e82" stroke-opacity=".6" stroke-width=".8"><path d="M24 32H40M32 24V40M640 32H656M648 24V40M24 488H40M32 480V496M640 488H656M648 480V496"/></g>
+  <g fill="#b3c1aa" font-family="monospace" font-size="9" letter-spacing="1"><text x="56" y="36">GOLDEN THREAD / SYSTEM OVERVIEW</text><text x="622" y="36">01</text></g>
+  <g stroke="#69785f" stroke-width="1"><path d="M215 151H264V214H287M465 151H416V214H393M215 383H264V304H287M465 383H416V304H393"/><path d="M340 91V173M340 345V422M173 260H234M446 260H506" stroke-dasharray="2 6" opacity=".6"/></g>
+  <circle cx="340" cy="259" r="105" stroke="#8c9e7f" stroke-opacity=".2" stroke-dasharray="2 6"/>
+  <circle cx="340" cy="259" r="83" fill="#1e251f" stroke="#b4c3a8" stroke-width=".8"/>
+  <circle cx="340" cy="259" r="70" stroke="#a5b799" stroke-opacity=".2"/>
+  <g stroke="#8fa17f" stroke-width=".8" fill="#1b211c"><rect x="90" y="119" width="125" height="64"/><rect x="465" y="119" width="125" height="64"/><rect x="90" y="351" width="125" height="64"/><rect x="465" y="351" width="125" height="64"/></g>
+  <g font-family="monospace" text-anchor="middle" fill="#dce4d5"><text x="340" y="256" font-size="14" letter-spacing="1">ASSOCIATE</text><text x="340" y="278" font-size="8" letter-spacing="1.3" fill="#a0b294">ONBOARDING</text><text x="152" y="146" font-size="10">IDENTITY</text><text x="527" y="146" font-size="10">MILESTONES</text><text x="152" y="378" font-size="10">ASSIGNMENTS</text><text x="527" y="378" font-size="10">FEEDBACK</text></g>
+  <g font-family="monospace" text-anchor="middle" fill="#99ab8d" font-size="7" letter-spacing=".7"><text x="152" y="166">IBM SINGLE SIGN-ON</text><text x="527" y="166">SIX STAGE GATES</text><text x="152" y="398">PROJECTS + ACCOUNTS</text><text x="527" y="398">COACH + LEAD NOTES</text></g>
+  <g fill="#c3d0b8"><circle cx="264" cy="214" r="2.5"/><circle cx="416" cy="214" r="2.5"/><circle cx="264" cy="304" r="2.5"/><circle cx="416" cy="304" r="2.5"/></g>
+  <path d="M90 464H590" stroke="#64715b" stroke-width=".7"/>
+  <g fill="#a6b69b" stroke="#a6b69b" stroke-width=".7"><circle cx="90" cy="464" r="2"/><circle cx="190" cy="464" r="2"/><circle cx="290" cy="464" r="2"/><circle cx="390" cy="464" r="2"/><circle cx="490" cy="464" r="2"/><circle cx="590" cy="464" r="2"/></g>
+  <g fill="#9aac8e" font-family="monospace" font-size="7" text-anchor="middle"><text x="90" y="482">WEEK 04</text><text x="190" y="482">WEEK 07</text><text x="290" y="482">WEEK 10</text><text x="390" y="482">WEEK 13</text><text x="490" y="482">WEEK 24</text><text x="590" y="482">WEEK 36</text></g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#101211"/>
+  <g stroke="#75856c" stroke-opacity=".25" fill="none"><path d="M680 630L870 80L1200 350M720 630L890 80L1200 310M760 630L910 80L1200 270M800 630L930 80L1200 230M840 630L950 80L1200 190M880 630L970 80L1200 150M920 630L990 80L1200 110M960 630L1010 80L1200 70M1000 630L1030 80L1200 30M1040 630L1050 80L1200 -10"/><path d="M700 575L1180 60M715 530L1190 100M730 485L1200 140M745 440L1210 180M760 395L1220 220M775 350L1230 260M790 305L1240 300M805 260L1250 340M820 215L1260 380M835 170L1270 420M850 125L1280 460"/></g>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#f2f3ed">
+    <text x="70" y="78" font-family="monospace" font-size="15" letter-spacing="2">SIDHARTH BASAM</text>
+    <text x="1130" y="78" text-anchor="end" font-family="monospace" font-size="13">SELECTED WORK</text>
+    <text x="70" y="149" font-family="monospace" font-size="11" fill="#aeb9a9">SOFTWARE DEVELOPMENT / APPLIED AI</text>
+    <g font-size="86" letter-spacing="-4"><text x="64" y="258">I build software</text><text x="64" y="351">that moves</text><text x="64" y="444" fill="#aeb9aa">work forward.</text></g>
+    <path d="M70 500H1130" stroke="#343b34"/>
+    <text x="70" y="543" font-size="15" fill="#b1bca9">IBM / Golden Thread</text>
+    <text x="70" y="572" font-size="15" fill="#b1bca9">Tampa Electric / Document Intelligence Platform</text>
+    <text x="1130" y="572" text-anchor="end" font-family="monospace" font-size="12" fill="#aeb9a9">sid.fncai.org</text>
+  </g>
+</svg>
