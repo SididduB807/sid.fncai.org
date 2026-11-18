@@ -25,6 +25,7 @@ The site includes the owner’s supplied Golden Thread contributions at IBM; QA,
 ## GitHub Pages
 
 - Repository: https://github.com/SididduB807/sid.fncai.org
+- Custom domain: https://sid.fncai.org/
 - GitHub Pages URL: https://sididdub807.github.io/sid.fncai.org/
 - Deployment history: https://github.com/SididduB807/sid.fncai.org/actions
 
@@ -33,7 +34,7 @@ GitHub Pages is configured to deploy through GitHub Actions. Every push to `main
 ## Custom domain
 
 1. At the DNS provider for `fncai.org`, point the **`sid` CNAME record** to **`SididduB807.github.io`** (no repository path or protocol). The previous target, `brandon-ibm.github.io`, belongs to a different GitHub account.
-2. Once DNS is updated, set **Settings → Pages → Custom domain** to `sid.fncai.org`.
-3. After GitHub verifies DNS and provisions the certificate, enable **Enforce HTTPS**. `http://sid.fncai.org/` will redirect to HTTPS.
+2. The repository’s **Settings → Pages → Custom domain** is configured as `sid.fncai.org`.
+3. After GitHub provisions the certificate, **Enforce HTTPS** makes `http://sid.fncai.org/` redirect to HTTPS.
 
-The GitHub Pages URL works independently until the custom domain is connected. The checked-in `CNAME` file declares the intended domain; GitHub Actions publishing also requires setting the domain in the repository’s Pages settings.
+With the custom domain configured, the GitHub Pages URL redirects to it. The checked-in `CNAME` file mirrors the domain configured in the repository’s Pages settings.
